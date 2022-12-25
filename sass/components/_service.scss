@@ -1,0 +1,53 @@
+// service part start
+
+#service{
+    padding-top: 90px;
+    padding-bottom: 55px;
+    background: #F4F6FC;
+    .ser_main{
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 46px;
+            color: #282938;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 405px;
+        }
+    }
+    .ser_btn{
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #2405F2;
+        }
+    }
+    .ser_item{
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            color: #282938;
+            padding-top: 10px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 303px;
+        }
+    }
+}

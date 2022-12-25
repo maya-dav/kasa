@@ -1,0 +1,50 @@
+// portfolio part start
+
+#portfolio{
+    padding-top: 155px;
+    padding-bottom: 77px;
+    background: #F4F6FC;
+    .port_head{
+        h6{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+        }
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            color: #282938;
+            padding-top: 4px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 733px;
+            padding-top: 24px;
+        }
+        .icon{
+            i{
+                margin: 0 10px;
+                padding-top: 32px;
+                font-size: 22px;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                &:hover{
+                    color: orange;
+                }
+}
+        }
+    }
+}

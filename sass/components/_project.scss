@@ -1,0 +1,138 @@
+// project part start
+
+#project{
+    padding-top: 95px;
+    padding-bottom: 100px;
+    .pro_head{
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 46px;
+            color: #282938;
+        }
+    }
+    .lern_btn{
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #282938;
+        }
+    }
+    .paddd{
+        padding-top: 50px;
+        .pro_main{   
+            .pro_img{
+                position: relative;
+                &:hover .pro_overlay{
+                    opacity: 1;
+                    width: 396px;
+                }
+                .pro_overlay{
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 0px;
+                    height: 100%;
+                    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+                    opacity: 0;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    .over_main{
+                        position: absolute;
+                        content: '';
+                        left: 12%;
+                        top: 52%;
+                        h5{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 21px;
+                            color: #FFFFFF;
+                            width: 313px;
+                            line-height: 29px;
+                        }
+                        p{
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            color: #FFFFFF;
+                            opacity: 0.8;
+                            width: 293px;
+                            padding-top: 8px;
+                        }
+                        .over_btn{
+                            a{
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                color: #FCD980;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pro_img_two{
+        img{
+            margin-left: 8px;
+            margin-top: 33px;
+        }
+    }
+    .pro_img_one{
+        position: relative;
+        &:hover .onee_overlay{
+            opacity: 1;
+            width: 331%;
+        }
+        .onee_overlay{
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 8px;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+            opacity: 0;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            .last_moment{
+                position: absolute;
+                content: '';
+                top: 47%;
+                left: 15%;
+                h6{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    width: 244px;
+                    line-height: 30px;
+                }
+                .vew_port{
+                    a{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #FCD980;
+                        padding-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+// desin part start
+
+#design{
+    padding-top: 95px;
+    padding-bottom: 80px;
+    background: #F4F6FC;
+    .design_head{
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            color: #282938;
+        }
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            text-align: center;
+            color: #282938;
+            width: 621px;
+            margin-left: 20px;
+        }
+    }
+    .main{
+        margin-top: 40px;
+    }
+    .design_item_one{
+        background-color: #fff;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        &:hover .design_item{
+            transform: scale(1.1);
+        }
+    }
+    .design_item{
+        margin-left: 49px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        cursor: pointer;
+        i{
+            font-size: 30px;
+            color: #2405F2;
+        }
+        h6{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            color: #282938;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 324.08px;
+        }
+    }
+}

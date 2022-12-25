@@ -1,0 +1,66 @@
+// mixitup part start
+
+#mixit{
+    padding: 80px 0;
+    .mix_btn{
+        button{
+            border: none;
+            background-color: transparent;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #282938;
+            opacity: 0.7;
+            margin: 0 23px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #2405F2;
+            }
+        }
+    }
+    .mixit_img{
+        img{
+            width: 100%;
+        }
+        .mixit_text{
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 33px;
+                color: #282938;
+                padding-top: 24px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #282938;
+                opacity: 0.7;
+                width: 580px;
+                padding-top: 12px;
+            }
+            .more_btn{
+                a{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #282938;
+                }
+            }
+        }
+    }
+    .mixxser{
+        margin-top: 48px;
+    }
+    .fhjhdd{
+        margin-top: 64px;
+    }
+}

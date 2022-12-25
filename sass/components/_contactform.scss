@@ -1,0 +1,128 @@
+// form
+
+#conntact{
+    padding-top: 180px;
+    .contacct_head{
+        margin-bottom: 50px;
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            color: #282938;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 562px;
+            margin-left: 39px;
+            padding-top: 16px;
+        }
+    }
+    .form_mainn{
+        position: relative;
+        padding: 55px 77px;
+        background: #F4F6FC;
+        border-radius: 12px;
+        margin-bottom: 100px;
+        .one_one{
+            label{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #000000;
+            }
+            input{
+                border: none;
+                background-color: transparent;
+                border: 1px solid rgba(0, 0, 0, 0.12);
+                border-radius: 8px;
+                width: 438px;
+                padding: 18px 32px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;
+            }
+        }
+        .one_two{
+            margin-top: -88px;
+            margin-left: 480px;
+            label{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #000000;
+            }
+            input{
+                border: none;
+                background-color: transparent;
+                border: 1px solid rgba(0, 0, 0, 0.12);
+                border-radius: 8px;
+                width: 438px;
+                padding: 18px 32px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;
+            }
+        }
+    }
+    .no_problem{
+        margin-top: 24px;
+    }
+    .text_form_textarea{
+        margin-top: 24px;
+        .one_three{
+            label{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #000000;
+            }
+            textarea{
+                border: none;
+                background-color: transparent;
+                border: 1px solid rgba(0, 0, 0, 0.12);
+                border-radius: 8px;
+                padding: 18px 32px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;
+                resize: none;
+            }
+        }
+    }
+    .send_btn{
+        margin-top: 32px;
+        a{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #F4F6FC;
+            padding: 16px 64px;
+            background: #282938;
+            border-radius: 41px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                background-color: coral;
+            }
+        }
+    }
+}

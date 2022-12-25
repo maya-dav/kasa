@@ -1,0 +1,89 @@
+// team part start
+
+#team{
+    padding: 96px 0;
+    background: #F4F6FC;
+    .team_head{
+        h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            text-align: center;
+            color: #282938;  
+        }
+    }
+    .team_item{
+        padding: 50px 50px 30px 50px;
+        background: #FFFFFF;
+        .team_img{
+            position: relative;
+            &:hover .team_over{
+                opacity: 1;
+                width: 100%;
+            }
+            img{
+               width: 100%;
+            }
+            .team_over{
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '';
+                width: 0%;
+                height: 100%;
+                background: linear-gradient(348.37deg, #5339fad5 17.97%, rgba(255, 255, 255, 0) 79.2%);
+                border-radius: 50%;
+                opacity: 0;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                ul{
+                    display: flex;
+                    margin-top: 148px;
+                    margin-left: 19px;
+                    li{
+                        margin: 0 10px;
+                        a{
+                            color: #FFFFFF;
+                            transition: 0.5s;
+                            -webkit-transition: 0.5s;
+                            -moz-transition: 0.5s;
+                            -ms-transition: 0.5s;
+                            -o-transition: 0.5s;
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .img_text{
+            // margin-top: 100px;
+            text-align: center;
+            h5{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                color: #1D2130;
+                margin-top: 30px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #1D2130;
+                opacity: 0.7;
+            }
+        }
+    }
+    .teeem{
+        margin-top: 40px;
+    }
+    
+}

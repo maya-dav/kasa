@@ -1,0 +1,111 @@
+// client part start
+
+#client{
+    padding-top: 96px;
+    padding-bottom: 120px;
+    background: #F9FBFD;
+    .client_head{
+        h5{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            color: #282938;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            padding-top: 10px;
+            width: 327px;
+        }
+    }
+    .arrows{
+        position: relative;
+        .next{
+            position: absolute;
+            content: '';
+            top: 102%;
+            left: 603px;
+            width: 40px;
+            height: 40px;
+            color: #222;
+            font-size: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                background: #5239FA;
+                color: #fff;
+            }
+            } 
+          .prev{
+            position: absolute;
+            content: '';
+            top: 102%;
+            right: 187px;
+            width: 40px;
+            height: 40px;
+            color: #222;
+            font-size: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                background: #5239FA;
+                color: #fff;
+            }
+          } 
+    }
+    .client_text{
+        h5{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 27px;
+            color: #282938;
+            width: 776px;
+        }
+        .client_img{
+            margin-top: 24px;
+            img{
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+        }
+        .client_main{
+            margin-top: -51px;
+            margin-left: 70px;
+            span{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                color: #282938;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                color: #282938;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+// jhjujikk;l
+
+#blogbanner{
+    padding-top: 179px;
+    .blog_bann_text{
+        h4{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            width: 880px;
+            color: #282938;
+            margin-left: -122px;
+        }
+        h5{
+            padding-top: 16px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #282938;
+            opacity: 0.87;
+        }
+    }
+    .bollho{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .blog_big_img{
+             &:hover img{
+                transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -ms-transform: scale(1.1);
+                -o-transform: scale(1.1);
+            }
+            .bloog_biig_imgg{
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .blog_peera{
+        margin-left: -96px;
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.7;
+            width: 831px;
+        }
+    }
+    .read_more_btn{
+        a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #2405F2;
+            opacity: 0.7;
+        }
+    }
+}

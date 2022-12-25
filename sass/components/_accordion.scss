@@ -1,0 +1,73 @@
+// accor part start
+
+#accordion{
+    padding-top: 96px;
+    padding-bottom: 99px;
+    .accor_head{
+        h5{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            color: #282938;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            text-align: center;
+            color: #2405F2;
+            opacity: 0.87;
+            padding-top: 7px;
+            margin-left: -99px;
+        }
+    }
+    .accordion-button:focus {
+        z-index: 3;
+         border-color: none;
+         outline: 0;
+         box-shadow: 0 0 0 .25rem transparent;
+    }
+    .accordion-button:not(.collapsed) {
+         color: #222;
+         background-color: transparent;
+         box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+    }
+    .accordion-item {
+        background-color: #fff;
+        border: 1px solid transparent;
+    }
+    .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem;
+        font-size: 18px;
+        color: #282938;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+    .accordion-button span{
+        color: #2405F2;
+    }
+   .accordion-body p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #282938;
+        opacity: 0.87;
+        width: 568px;
+        margin-left: 46px;
+        
+    }
+}

@@ -1,0 +1,90 @@
+// footer part start
+
+#footer{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background: #1C1E53;
+    .footer_img{
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.8;
+            padding-top: 20px;
+        }
+
+    }
+    .footer_text{
+        h4{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+        P{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #F4F6FC;
+            opacity: 0.8;
+            line-height: 27px;
+            padding-top: 8px;
+        }
+    }
+    .footer_icon{
+        i{
+            color: #FFFFFF;
+            font-size: 20px;
+            margin: 0 15px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #FCD980;
+            }
+        }
+    }
+    .foot_box{
+        background: #FCD980;
+        padding: 15px 0;
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #282938;
+            margin-left: 35px;
+        }
+        .foot_text{
+            margin-top: -15px;
+          span{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #282938;
+            opacity: 0.8;
+            margin-left: 35px;
+          }
+        }
+        .foot_coll{
+            margin-top: -53px;
+            margin-left: 260px;
+            p{
+
+            }
+            .fffot1{
+                margin-top: -15px;
+                span{
+                    margin-left: 35px;
+                }
+            }
+        }
+    }
+}

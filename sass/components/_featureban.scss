@@ -1,0 +1,35 @@
+// feature bannner
+
+.banner_texttxt{
+    h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        color: #FFFFFF;
+        width: 468px;
+    }
+    p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        width: 562px;
+        padding-top: 30px;
+    }
+}
+.amvalna{
+    padding-top: 80px;
+    .work_img_two{
+        margin-top: 12px;
+        h5{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 22px;
+            color: #282938;
+        }
+    }
+}

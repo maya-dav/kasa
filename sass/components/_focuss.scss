@@ -1,0 +1,67 @@
+// focuss part start
+
+#focuss{
+    // margin-bottom: 100px;
+    .foex{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        background: #F4F5F5;
+        .focuss_text_one{
+            margin-left: -40px;
+            h6{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                color: #282938;
+                margin-left: -468px;
+            }
+            h4{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 35px;
+                color: #282938;
+                padding-top: 8px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #282938;
+                opacity: 0.7;
+                padding-top: 10px;
+                width: 515px;
+            }
+        }
+        .foucss_text_two{
+            margin-top: 23px;
+            margin-left: -66px;
+            h4{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 35px;
+                color: #282938;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #282938;
+                opacity: 0.7;
+                width: 515px;
+                padding-top: 10px;
+            }
+        }
+    }
+    .focuss_img{
+        img{
+            width: 102%;
+            margin-left: -12px;
+        }
+    }
+}

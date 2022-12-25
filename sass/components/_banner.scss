@@ -1,0 +1,73 @@
+// banner part start
+
+#banner{
+    padding-top: 180px;
+    padding-bottom: 103px;
+    background-color: #1C1E53;
+    .banner_text{
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 74px;
+            color: #FFFFFF;
+
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.7;
+            width: 562px;
+            padding-top: 12px;
+
+        }
+
+    }
+    .ban_btn{
+        a{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+            color: #1B1C2B;
+            padding: 14px 45px;
+            background: #FCD980;
+            border-radius: 41px;
+            margin-top: 22px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                background-color: antiquewhite;
+            }
+        }
+        span{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+            margin-left: 40px;
+            word-spacing: 4px;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            &:hover{
+                color: #FCD980;
+            }
+            i{
+                font-size: 15px;
+                font-style: normal;
+            }
+        }
+    }
+}
